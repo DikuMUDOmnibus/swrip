@@ -1,0 +1,12 @@
+#PLANET
+Name         Kamino~
+Filename     Kamino.pln~
+BaseValue    205000
+Flags        0
+PopSupport   50.000000
+spaceobject   Kamino~
+GovernedBy   The Empire~
+Area         Kamino.are~
+End
+
+#END

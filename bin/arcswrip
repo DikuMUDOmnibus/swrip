@@ -1,0 +1,8 @@
+#!/bin/bash
+swrdir=~/mud
+
+cd $swrdir
+ls `cat system/archive_excludes` > ../tar_excludes 2> /dev/null
+rm -f ../swrip.tar.gz
+tar czf ../swrip.tar.gz . --exclude-from=../tar_excludes
+rm -f ../tar_excludes

@@ -1,0 +1,296 @@
+#OBJECT
+Count        3
+Vnum         50
+Level        1
+Values       12 8 32 6 0 0
+End
+
+#OBJECT
+Count        3
+Vnum         50
+Level        71
+Values       12 8 32 6 0 0
+End
+
+#OBJECT
+Count        3
+ShortDescr   the skin of the corpse of Kewhbacca~
+Description  The skin of the corpse of Kewhbacca~
+Vnum         23
+Values       5 0 0 0 0 0
+End
+
+#OBJECT
+Count        3
+Vnum         21422
+End
+
+#OBJECT
+Count        3
+Vnum         612
+End
+
+#OBJECT
+Count        3
+Name         &RAn Emporium Brand&z Restraining Bolt&w~
+ShortDescr   &RAn Emporium Brand&z Restraining Bolt&w~
+Description  &RAn Emporium Brand&z Restraining Bolt&w was dropped here.~
+Vnum         6816
+WearFlags    131077
+ItemType     9
+Level        100
+Cost         400
+Values       10 10 3 3 0 0
+End
+
+#OBJECT
+Count        3
+Vnum         11810
+End
+
+#OBJECT
+Name         Linen Closet~
+ShortDescr   Linen Closet~
+Description  Linen Closet was dropped here.~
+Vnum         26007
+WearFlags    16385
+ItemType     15
+Level        100
+Cost         80
+Values       100 0 0 10 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &bA Men's Shirt&R&W~
+ShortDescr   &bA Men's Shirt&R&W~
+Description  &bA Men's Shirt&R&W was dropped here.~
+Vnum         26009
+WearFlags    1025
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &BLoose Fitting Shorts&R&W~
+ShortDescr   &BLoose Fitting Shorts&R&W~
+Description  &BLoose Fitting Shorts&R&W was dropped here.~
+Vnum         26009
+WearFlags    2049
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CFirm, Toned Calves and Thighs&R&W~
+ShortDescr   &CFirm, Toned Calves and Thighs&R&W~
+Description  &CFirm, Toned Calves and Thighs&R&W was dropped here.~
+Vnum         26009
+WearFlags    33
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CThe Swell of Her Cleavage&R&W~
+ShortDescr   &CThe Swell of Her Cleavage&R&W~
+Description  &CThe Swell of Her Cleavage&R&W was dropped here.~
+Vnum         26009
+WearFlags    9
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CToned Arms&R&W~
+ShortDescr   &CToned Arms&R&W~
+Description  &CToned Arms&R&W was dropped here.~
+Vnum         26008
+WearFlags    257
+ItemType     9
+Level        100
+Cost         750
+Values       6 6 0 0 0 0
+End
+
+#OBJECT
+Count        3
+Vnum         28806
+Level        5
+Values       1 11 6 47 0 0
+Spell 3      'heal'
+End
+
+#OBJECT
+Name         Linen Closet~
+ShortDescr   Linen Closet~
+Description  Linen Closet was dropped here.~
+Vnum         26007
+WearFlags    16385
+ItemType     15
+Level        100
+Cost         80
+Values       100 0 0 10 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &bA Men's Shirt&R&W~
+ShortDescr   &bA Men's Shirt&R&W~
+Description  &bA Men's Shirt&R&W was dropped here.~
+Vnum         26009
+WearFlags    1025
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &BLoose Fitting Shorts&R&W~
+ShortDescr   &BLoose Fitting Shorts&R&W~
+Description  &BLoose Fitting Shorts&R&W was dropped here.~
+Vnum         26009
+WearFlags    2049
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CFirm, Toned Calves and Thighs&R&W~
+ShortDescr   &CFirm, Toned Calves and Thighs&R&W~
+Description  &CFirm, Toned Calves and Thighs&R&W was dropped here.~
+Vnum         26009
+WearFlags    33
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CThe Swell of Her Cleavage&R&W~
+ShortDescr   &CThe Swell of Her Cleavage&R&W~
+Description  &CThe Swell of Her Cleavage&R&W was dropped here.~
+Vnum         26009
+WearFlags    9
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CToned Arms&R&W~
+ShortDescr   &CToned Arms&R&W~
+Description  &CToned Arms&R&W was dropped here.~
+Vnum         26008
+WearFlags    257
+ItemType     9
+Level        100
+Cost         750
+Values       6 6 0 0 0 0
+End
+
+#OBJECT
+Name         Linen Closet~
+ShortDescr   Linen Closet~
+Description  Linen Closet was dropped here.~
+Vnum         26007
+WearFlags    16385
+ItemType     15
+Level        100
+Cost         80
+Values       100 0 0 10 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &bA Men's Shirt&R&W~
+ShortDescr   &bA Men's Shirt&R&W~
+Description  &bA Men's Shirt&R&W was dropped here.~
+Vnum         26009
+WearFlags    1025
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &BLoose Fitting Shorts&R&W~
+ShortDescr   &BLoose Fitting Shorts&R&W~
+Description  &BLoose Fitting Shorts&R&W was dropped here.~
+Vnum         26009
+WearFlags    2049
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CFirm, Toned Calves and Thighs&R&W~
+ShortDescr   &CFirm, Toned Calves and Thighs&R&W~
+Description  &CFirm, Toned Calves and Thighs&R&W was dropped here.~
+Vnum         26009
+WearFlags    33
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CThe Swell of Her Cleavage&R&W~
+ShortDescr   &CThe Swell of Her Cleavage&R&W~
+Description  &CThe Swell of Her Cleavage&R&W was dropped here.~
+Vnum         26009
+WearFlags    9
+ItemType     9
+Level        100
+Cost         350
+Values       4 4 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         &CToned Arms&R&W~
+ShortDescr   &CToned Arms&R&W~
+Description  &CToned Arms&R&W was dropped here.~
+Vnum         26008
+WearFlags    257
+ItemType     9
+Level        100
+Cost         750
+Values       6 6 0 0 0 0
+End
+
+#OBJECT
+Vnum         28100
+Level        104
+Values       12 14 56 6 2000 2000
+End
+
+#END

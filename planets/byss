@@ -1,0 +1,13 @@
+#PLANET
+Name         Byss~
+Filename     byss~
+BaseValue    200000
+Flags        0
+PopSupport   100.000000
+GovernedBy   The Rebel Alliance~
+Area         a.byss.city~
+Area         thronecity.are~
+Area         byss.jail~
+End
+
+#END

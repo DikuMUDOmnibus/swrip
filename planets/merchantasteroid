@@ -1,0 +1,13 @@
+#PLANET
+Name         The Merchant Asteroid~
+Filename     merchantasteroid~
+BaseValue    450000
+Flags        1
+PopSupport   -18.000000
+spaceobject   Merchant Asteroid~
+GovernedBy   The Triad Syndicate~
+Area         asteroidchunks.are~
+Area         AsteroidExt.are~
+End
+
+#END

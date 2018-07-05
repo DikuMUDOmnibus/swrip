@@ -1,0 +1,15 @@
+bin/swrip
+src/*.o
+area/core
+log/*
+system/bugs.txt
+system/bugs.txt.bak
+system/log.txt
+system/WHO
+system/WEBWHO
+system/shutdown.txt
+area/shutdown.txt
+corpses/*
+backup/?/*
+area/*.bak
+building/*.bak

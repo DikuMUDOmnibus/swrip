@@ -1,0 +1,12 @@
+#PLANET
+Name         Etti IV~
+Filename     ettiiv~
+BaseValue    500000
+Flags        1
+PopSupport   98.000000
+spaceobject   Etti IV~
+GovernedBy   Corporate Sector Authority~
+Area         EttiIVSpacePort.are~
+End
+
+#END

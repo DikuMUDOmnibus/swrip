@@ -1,0 +1,11 @@
+#PLANET
+Name         Hapes~
+Filename     hapes.planet~
+BaseValue    500000
+Flags        1
+PopSupport   0.000000
+spaceobject   Hapes~
+Area         hapes.are~
+End
+
+#END

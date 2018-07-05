@@ -1,0 +1,12 @@
+#PLANET
+Name         Kuat~
+Filename     kuat.planet~
+BaseValue    350000
+Flags        0
+PopSupport   49.000000
+spaceobject   Kuat~
+GovernedBy   The Rebel Alliance~
+Area         kuatcity.are~
+End
+
+#END

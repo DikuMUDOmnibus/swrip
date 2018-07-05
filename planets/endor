@@ -1,0 +1,12 @@
+#PLANET
+Name         Endor~
+Filename     endor~
+BaseValue    75000
+Flags        0
+PopSupport   92.000000
+spaceobject   Endor~
+GovernedBy   The Rebel Alliance~
+Area         endor~
+End
+
+#END

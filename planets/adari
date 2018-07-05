@@ -1,0 +1,13 @@
+#PLANET
+Name         Adari~
+Filename     adari~
+BaseValue    250000
+Flags        0
+PopSupport   99.000000
+spaceobject   Adari~
+GovernedBy   The Rebel Alliance~
+Area         adari~
+Area         adari01~
+End
+
+#END

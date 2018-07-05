@@ -1,0 +1,13 @@
+#PLANET
+Name         Kashyyyk~
+Filename     Kashyyyk~
+BaseValue    200000
+Flags        0
+PopSupport   91.000000
+spaceobject   Kashyyyk~
+GovernedBy   The Rebel Alliance~
+Area         kashyyyk~
+Area         NewKashyyyk.are~
+End
+
+#END

@@ -1,0 +1,11 @@
+#PLANET
+Name         Dagobah~
+Filename     dagobah~
+BaseValue    0
+Flags        1
+PopSupport   50.000000
+spaceobject   Dagobah~
+Area         dagobah~
+End
+
+#END

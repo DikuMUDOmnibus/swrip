@@ -1,0 +1,11 @@
+#PLANET
+Name         Corulag~
+Filename     corulag.planet~
+BaseValue    30000
+Flags        0
+PopSupport   94.000000
+GovernedBy   The Rebel Alliance~
+Area         corulag.are~
+End
+
+#END

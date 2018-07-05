@@ -1,0 +1,12 @@
+#PLANET
+Name         Af'el~
+Filename     afel.planet~
+BaseValue    250000
+Flags        0
+PopSupport   -99.000000
+spaceobject   Af'el~
+GovernedBy   The Rebel Alliance~
+Area         afel.are~
+End
+
+#END

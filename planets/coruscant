@@ -1,0 +1,21 @@
+#PLANET
+Name         Coruscant~
+Filename     coruscant~
+BaseValue    500000
+Flags        1
+PopSupport   -100.000000
+spaceobject   Coruscant~
+GovernedBy   The Empire~
+Area         corus.pt2~
+Area         monument.plaza~
+Area         senate~
+Area         corus.jail~
+Area         executor.are~
+Area         darkhand~
+Area         skyhook.are~
+Area         space.are~
+Area         harlochs.are~
+Area         manarai_spaceport~
+End
+
+#END

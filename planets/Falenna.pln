@@ -1,0 +1,11 @@
+#PLANET
+Name         Fallena~
+Filename     Falenna.pln~
+BaseValue    350000
+Flags        0
+PopSupport   100.000000
+spaceobject   Fallena~
+GovernedBy   The Empire~
+End
+
+#END

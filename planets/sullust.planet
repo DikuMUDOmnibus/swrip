@@ -1,0 +1,12 @@
+#PLANET
+Name         Sullust~
+Filename     sullust.planet~
+BaseValue    250000
+Flags        0
+PopSupport   86.000000
+spaceobject   Sullust~
+GovernedBy   The Rebel Alliance~
+Area         sullust.are~
+End
+
+#END

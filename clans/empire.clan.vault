@@ -1,0 +1,105 @@
+#OBJECT
+Count        9
+Vnum         29063
+Level        105
+Values       94 0 0 0 0 0
+End
+
+#OBJECT
+Count        15
+Vnum         29063
+Level        105
+Values       95 0 0 0 0 0
+End
+
+#OBJECT
+Count        6
+Vnum         29063
+Level        105
+Values       96 0 0 0 0 0
+End
+
+#OBJECT
+Count        30
+Vnum         11101
+Level        105
+End
+
+#OBJECT
+Count        30
+Vnum         28050
+Level        105
+End
+
+#OBJECT
+Count        30
+Vnum         28208
+Level        105
+End
+
+#OBJECT
+Count        30
+Vnum         28606
+Level        105
+End
+
+#OBJECT
+Count        30
+Vnum         10210
+Level        105
+End
+
+#OBJECT
+Count        7
+Vnum         28606
+Level        1
+End
+
+#OBJECT
+Vnum         29063
+Level        1
+Cost         0
+Values       94 0 0 0 0 0
+End
+
+#OBJECT
+Count        7
+Vnum         10208
+Level        1
+End
+
+#OBJECT
+Count        3
+Vnum         29063
+Level        1
+Cost         0
+Values       96 0 0 0 0 0
+End
+
+#OBJECT
+Count        8
+Vnum         10210
+Level        1
+End
+
+#OBJECT
+Count        4
+Vnum         29063
+Level        1
+Cost         0
+Values       95 0 0 0 0 0
+End
+
+#OBJECT
+Count        7
+Vnum         28050
+Level        1
+End
+
+#OBJECT
+Count        7
+Vnum         28208
+Level        1
+End
+
+#END

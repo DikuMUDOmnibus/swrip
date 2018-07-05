@@ -1,0 +1,12 @@
+#PLANET
+Name         Ryloth~
+Filename     ryloth~
+BaseValue    30000
+Flags        0
+PopSupport   -54.000000
+spaceobject   Ryloth~
+GovernedBy   The Rebel Alliance~
+Area         Ryloth.are~
+End
+
+#END

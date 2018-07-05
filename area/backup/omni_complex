@@ -1,0 +1,639 @@
+#AREA   Omnipresent Compex~
+
+
+
+#AUTHOR Kuran~
+
+#RANGES
+101 103 101 103
+$
+
+#RESETMSG Can't sleep now, the newbies will eat me.~
+
+#FLAGS
+2
+
+#ECONOMY 0 29781230
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#100
+terminal omnipresent monitor~
+the Monitoring Terminal~
+The Monitoring Terminal has been installed here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#101
+terminal omnipresent coding~
+the Coding Terminal~
+The Terminal of the Omnipresent Coders is here, leaking source code.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#102
+terminal quest galactic control blinking~
+the Terminal for Galactic Control~
+The Quest Board is here, and is blinking.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#103
+silphion silphions wormhole teleporter glimmer~
+durgas wormhole~
+&zThe teleporter's glimmer offers faint glimpses into the real world.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#104
+A long couch~
+a couch~
+A comfortable couch was placed here~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#106
+multiplay board~
+multiplay board~
+Multiplay Board~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#107
+The book of the Dead~
+The book of the Dead~
+The book of the Dead~
+~
+15 0 0
+1000000 1000000 0 0
+1 0 0
+#148
+Aquarium Corral~
+&PSome Pink Corral&R&w~
+&PSome Pink Corral&p is emitting &cair bubbles.&R&w~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+> rand_prog 60~
+mpecho  ( )
+mpecho      ( )
+mpecho    o
+mpecho   ( )      .
+mpecho  '   ( )   
+mpecho   ( )    o
+mpecho  o  ( ) 
+mpecho       ( )
+mpecho     ( ) .
+mpecho    o ( )  
+mpecho     .
+mpecho    o
+~
+|
+#149
+Fake Plant~
+&GA Distinctly Fake Plant&R&w~
+&GA Distinctly Fake Plant&p bobs and sways in the water.&R&w~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#150
+Sand Castle~
+&PA Neon Pink &CAnd Blue Castle&R&w~
+&PA Neon Pink &CAnd Blue Castle&p is here, nestled in the sand.&R&w~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#100
+Omnipresent Being's Monitoring Room~
+You are in the center of the Omnipresent Being's domain.  From this;complex
+the all knowing, all powerful beings that control this galaxy;do their
+work. There is a computer terminal in the center of the room used to
+monitor happenings of the rest of the Galaxy. To the north lies the
+Galactic Control center, to the south is the Reality Control area, along
+with the Supreme Being's offices. Up is a one way passage to the Isolation
+Room, where misbehaving mortal beings are sent to cool off. To the east is
+an Omnipresent-to-Mortal conference room.
+~
+0 109051912 1
+D0
+~
+~
+0 -1 104
+D1
+~
+~
+0 -1 102
+D2
+~
+~
+0 -1 106
+S
+#101
+An Empty Apartment~
+~
+0 111674884 0
+D4
+~
+~
+0 -1 125
+D5
+~
+~
+0 -1 6
+D7
+~
+~
+0 -1 19
+D8
+~
+~
+0 -1 7
+D9
+~
+~
+0 -1 45
+S
+#102
+The Omnipresent Being's Mortal Engagement Room~
+You are in the conference room where the Omnipresent Beings engage
+the mortal beings in questioning, and occasionally punishment.  The
+room is bare and there are no apparent exits except the one to the
+west.
+~
+0 8388616 1
+D3
+~
+~
+0 -1 100
+S
+#103
+Kre's Bit-Bucket~
+Welcome to the big bit-bucket in the sky.  This is where dead programs go
+to play in the never ending RAM under the watchful eye of Kre. 
+~
+0 9438212 1
+S
+#104
+Omnipresent Builders' Galactic Discourse Center~
+From this chamber, all major construction projects which take place in the
+galaxy are carefully planned and executed.  A terminal for the discourse
+of this topic has been carefully mounted in the far wall, and is blinking
+for some reason.  The only exit apparent to you is south.
+~
+0 8 1
+D2
+~
+~
+0 -1 100
+S
+#105
+An Empty Apartment~
+My home, knock before you enter, wipe your feet, and dont spit
+~
+0 102760460 1
+D2
+~
+~
+0 -1 1
+> speech_prog Home~
+if name($n) == Cratchet
+mptrans $n 8499
+mpecho Cratchet steps through a portal of 
+mpecho swirling screaming skulls.
+else
+Mpechoaround $n &RYou have your own home, Begone!&W
+mpforce $n recall
+endif
+~
+> speech_prog docjuice~
+mpat Orion mpforce orion imm Me So Sucky!
+~
+> speech_prog captain~
+mpat darrik feel sleep darrik
+mpat orion feel sleep orion
+~
+|
+S
+#106
+Omnipresent Being's Office Complex~
+The air here is thick with the sounds of creation.  The Supreme Beings
+do much of their Galactic building in rooms adjoining this one.  In all,
+there are four seperate offices accessable from here, along with the
+Reality Control center, which is directly above this room.  North leads
+back to the hub of the complex.
+~
+0 8 1
+D0
+~
+~
+0 -1 100
+D1
+~
+door office~
+1 -1 107
+D2
+~
+~
+1 -1 119
+D3
+~
+~
+0 -1 111
+D4
+~
+~
+1 -1 110
+D5
+~
+~
+0 -1 4
+D6
+~
+~
+0 -1 5
+D7
+~
+~
+0 -1 1
+D8
+~
+~
+0 -1 112
+S
+#107
+Xibar's Abode~
+This is a very cozy home, with a nice snug window looking out onto
+Fornax. Above the wall is a nice prized trophy, the stuffed head of
+Czethros.  Below that is a fireplace, which has a fire lit. There are
+several items here, including a chest full of personal belonging and a
+very large bed, that is inviting.  If you had not known this was real you
+would believe it a hologram generated room, perhaps it is.    
+~
+0 110100488 1
+D3
+~
+door~
+1 -1 106
+S
+#108
+An Empty House~
+The glimmer you saw was a teleporter, a gate.  One that took you to where
+no mortal or immortal has ever laid their eyes before. You are inside
+total blackness, illuminated only by the dancing sprites of electrons
+running  across their roads of platinum and copper.  A gigantic monitor,
+composing one entire wall, flickers with information of the universe you
+just left.  Opposite of it, with an input/output deck raised beside it, a
+simple cot was provided for the watcher. Welcome to the universe.
+~
+0 75497480 1
+D5
+~
+~
+2048 -1 110
+S
+#109
+Darrik's apartment~
+The stream of the night
+     rides over the sky
+  The gleam of the moon
+     hits my bloodshot eyes
+  I blink only once
+     and there He stands
+  His eyes shoot out fire,
+     my soul's in His hands.
+  He smiles His evil smile,
+     His eyes brightly glow,
+  He throws me on the ground,
+     His full intent I know.
+  I hear the old beast howl,
+     my whole body turns to cold.
+  He stabs me with the ancient steel
+      And plays that game so old. 
+  Death whispers in my ear,
+     I see the gates of Hell.
+  I remember well that forsaken year
+     when I left my soul to sell.
+  I closed my eyes
+     and saw His throne.
+  It was then I knew
+     that I was gone.
+~
+0 -2138046456 1
+D2
+~
+~
+0 -1 121
+D3
+~
+~
+1 9599 118
+S
+#110
+The Omnipresent Mail Room~
+Well this room was feeling a little unused so it quit its old job and
+decided to become a mail room instead.
+~
+0 8 1
+D5
+~
+~
+0 -1 106
+S
+#111
+Sardog's Fishbowl~
+The surrounding area is thick with water, clean and bubbling from a small
+bit of corral tucked away in a dune of sand at what appears to be the
+bottom of a fishbowl. The sand itself shimmers and glistens, containing a
+myriad of colors, each twinkling in the dancing light from the surface of
+the water.  To the left, a small castle crafted out of ceramic pink and
+blue is nestled into the sand. 
+~
+0 110100488 1
+D1
+~
+~
+0 -1 106
+D5
+~
+~
+2056 -1 111
+D8
+~
+~
+0 -1 1
+> rand_prog 10~
+mpechoat $n &OTHUMP THUMP THUMP!
+mpechoat $n &RSomeone is tapping on the glass.
+~
+> rand_prog 3~
+mpechoat $n &R&OSome &rF&OI&rS&YH&O flakes land on the surface.
+~
+> rand_prog 40~
+mpechoat $n &OA small light in the&r heater&O lights up and warms
+mpechoat $n the water.&R&W 
+~
+> rand_prog 1~
+mpechoat $n &zSomething darts behind the coral!&R&W 
+~
+> rand_prog 2~
+mpechoat $n &WEyes ^zBLINK^x from inside the castle! 
+~
+|
+S
+#112
+&cThe Docta's Office&R&W~
+Pristine tile floors and white-washed walls reflect any speck of light
+entering the room. The large operating table in the middle of the room
+lays dormant, its metal frame lightly coated by a clean white sheet.
+The overhead lights hum lightly, reflecting beams of glistening light
+from the polished metal of new surgical tools.
+~
+0 42992656 1
+D7
+~
+~
+0 -1 106
+S
+#113
+Main Room of Darrik's Quarters~
+~
+0 512 1
+D1
+~
+~
+0 -1 114
+D2
+~
+~
+0 -1 116
+D3
+~
+~
+0 -1 115
+D4
+~
+~
+0 -1 119
+D5
+~
+~
+0 -1 118
+S
+#114
+Mail Room~
+~
+0 512 1
+D3
+~
+~
+0 -1 113
+S
+#115
+OOC Board room~
+~
+0 512 1
+D1
+~
+~
+0 -1 113
+S
+#116
+Tech Board room~
+~
+0 512 1
+D0
+~
+~
+0 -1 113
+D1
+~
+~
+0 -1 117
+S
+#117
+Tech Idea Board Room~
+~
+0 512 1
+D3
+~
+~
+0 -1 116
+S
+#118
+Living Room~
+~
+0 1073742336 1
+D3
+~
+~
+0 -1 122
+D4
+~
+~
+0 -1 113
+D5
+~
+~
+0 -1 120
+S
+#119
+Entrance to Darrik's Quarters~
+~
+0 512 1
+D0
+~
+~
+1 -1 106
+D5
+~
+~
+0 -1 113
+S
+#120
+Workshop~
+~
+0 100664328 1
+D4
+~
+~
+16777216 -1 118
+S
+#121
+Transport Room~
+~
+0 1073742340 1
+S
+#122
+Darrik's Mortal Relation Room~
+The dark, damp room is filled with various torture devices.  Several 
+manacles are attached to the walls, a rack lies against a blank wall, and
+an iron maiden stands near the door. An ewok  lies strapped to a table,
+while a blade whooshes back and forth, getting closer and closer to its
+chest. 
+~
+0 8913160 1
+D1
+~
+~
+16777216 -1 118
+> rand_prog 50~
+if name($n) == Darrik
+else
+if name($n) == Darrikette
+else
+mpechoat $n The blade creaks as it drops a fraction lower.
+mpechoat $n The ewok screaches in fright.
+endif
+endif
+~
+> rand_prog 1~
+mpecho The ewok gurgles as the blade slices through its throat and 
+mpecho blood gushes all over the floor. Several droids come out of 
+mpecho a panel and clean up the blood, while a large prison droid drags
+mpecho another ewok out and straps him to the table.
+~
+|
+S
+#123
+Vequir Shipyards~
+Vequir Construction Yards, one of the new yards created after the death of
+the Emperor, works mainly for the civilian classes. Large midsize
+freighters and fast starfighters are moved out in large numbers to various
+sites around the galaxy.  On occasion, a ship can be bought before it
+leaves this site. 
+~
+0 1073741824 1
+D2
+~
+~
+33554432 -1 124
+S
+#124
+Vequir Construction Yards~
+The construction yards stretch for miles in deep space.  Durasteel
+structures support half-built frames and  innards of the hundreds of
+ships. Construction droids and maintenance workers cover each ship like a
+swarm of insects.
+~
+0 1073741824 1
+D0
+~
+~
+0 -1 123
+S
+#125
+&bGraveyard.&R&W~
+Thousands of graves are here, with corresponding bleached white crosses.
+Pain and sorrow have no existance in this wasteland; the owner feels no
+such thing. The rotting stench of death attacks your senses, making your
+stomach turn. As time passes, the Graveyard acquires more and more dead,
+rotting souls. Of course, each life that was once living has a story; but
+no one cares, and never will. Upon looking out towards the endless void
+that the Graveyard is, a strong wind picks up, making you squint your
+eyes.  You recall a moment in your life where you lost a loved one, and
+tears stream down your cheek..but no pain can be felt.
+
+&rWelcome to Den.&R&W
+&b"I was me, but now he's gone."&R&W
+~
+0 67108940 0
+S
+#150
+Floating in a void~
+~
+0 1073741828 1
+S
+#0
+
+
+#RESETS
+O 1 100 1 100
+D 0 107 3 0
+O 1 32201 1 102
+O 1 38 1 114
+D 0 119 0 0
+D 0 109 3 0
+O 1 104 1 118
+O 1 38 1 110
+O 1 103 1 106
+O 1 106 1 106
+D 0 106 1 0
+D 0 106 2 0
+D 0 106 4 0
+O 1 90 1 115
+O 1 100 1 112
+O 1 150 1 111
+O 1 149 1 111
+O 1 148 1 111
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

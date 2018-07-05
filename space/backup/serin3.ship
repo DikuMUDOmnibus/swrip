@@ -1,0 +1,64 @@
+#SHIP
+Name         Serin Cassia~
+PersonalName         Cassia~
+Filename     serin3.ship~
+ShipID	   0
+Description  ~
+Owner        public~
+Pilot        pilot hiril~
+Copilot      kiban 11046~
+Class        1
+Tractorbeam  0
+Shipyard     11206
+Hanger       32427
+Vx           0
+Vy           0
+Vz           0
+Statet0      0
+Statei0      0
+Lasers       0
+Missiles     0
+Maxmissiles  0
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      10500
+Firstroom    32425
+Lastroom     32429
+Shield       0
+Maxshield    0
+Hull         10000
+Maxhull      10000
+Maxenergy    10000
+Hyperspeed   0
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       0
+Astro_array  0
+Realspeed    0
+Type         0
+Cockpit      32425
+Coseat       32425
+Pilotseat    32425
+Gunseat      32425
+Navseat      32425
+Engineroom   0
+Entrance     32426
+Shipstate    0
+Missilestate 0
+Energy       10000
+Manuever     0
+Alarm        0
+UpgradeBlock 0
+Ions         0
+MaxIntModules   3
+MaxExtModules   10
+Maxcargo     0
+Weight         0
+Dockingports   0
+Guard   0
+Home         ~
+Templatestring ~
+End

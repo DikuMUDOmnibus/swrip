@@ -1,0 +1,12 @@
+#PLANET
+Name         Wroona~
+Filename     wroona.planet~
+BaseValue    100000
+Flags        0
+PopSupport   92.000000
+spaceobject   Wroona~
+GovernedBy   The Rebel Alliance~
+Area         wroona.are~
+End
+
+#END

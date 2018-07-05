@@ -1,0 +1,11 @@
+#PLANET
+Name         Bespin~
+Filename     bespin.planet~
+BaseValue    100000
+Flags        0
+PopSupport   100.000000
+spaceobject   Bespin~
+GovernedBy   The Rebel Alliance~
+End
+
+#END

@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# Set the port number.
+port=7000
+if [ -n "$1" ]; then port=$1; fi
+
+# Obtain SWR base directory.
+swrdir=~/swr
+if [ -n "$2" ]; then swrdir=$2; fi
+
+# Check that startup script or game binary isn't already running.
+ps > $swrdir/ps.tmp
+if [ `grep ./startup $swrdir/ps.tmp | wc -l` -gt 1 ]; then
+echo Error: Startup script already running.
+exit 1
+fi
+if grep bin/swrip $swrdir/ps.tmp; then
+echo Error: Game binary already running.
+exit 1
+fi
+
+# Change to area directory.
+cd $swrdir/area
+
+
+# Set limits.
+ulimit -s 1024
+if [ -e shutdown.txt ]; then rm -f shutdown.txt; fi
+
+until [ -e shutdown.txt ]
+do
+    # If you want to have logs in a different directory,
+    #   change the 'logfile=' line to reflect the directory name.
+index=1000
+while
+logfile=../log/$index.log
+[ -e $logfile ]
+do
+if [ $index -lt 1100 ]
+then
+let index=index+1
+else
+rm -f $logfile
+fi
+done
+
+    # Record starting time
+    date > $logfile
+    date > ../area/boot.txt
+
+    # Run Rise in Power.
+nohup ../bin/swrip $port >& $logfile
+
+# make back up of bug log and start fresh
+if [ -e $swrdir/system/bugs.txt ]
+then
+if [ -e $swrdir/system/bugs.txt.bak ]; then rm $swrdir/system/bugs.txt.bak; fi
+mv $swrdir/system/bugs.txt $swrdir/system/bugs.txt.bak
+touch ~/swr/system/bugs.txt
+fi
+
+    # Restart, giving old connections a chance to die.
+sleep 15
+done&
+rm -f shutdown.txt

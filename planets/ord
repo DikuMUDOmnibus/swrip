@@ -1,0 +1,12 @@
+#PLANET
+Name         Ord Mantell~
+Filename     ord~
+BaseValue    0
+Flags        0
+PopSupport   50.000000
+spaceobject   Ord Mantell~
+GovernedBy   The Assassins Guild~
+Area         mantell.are~
+End
+
+#END

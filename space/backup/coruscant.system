@@ -1,0 +1,28 @@
+#SPACE
+Name         Coruscant~
+Filename     coruscant.system~
+Type         1~
+Locationa      Manarai Spaceport~
+Locationb      Public Landing Pad~
+Locationc      Palace Landing Pad~
+Doca          203
+Docb          10252
+Docc          9595
+Seca          0
+Secb          0
+Secc          0
+Gravity     50
+Xpos          100
+Ypos          150
+Zpos          75
+HX            0
+HY            0
+HZ            0
+SP            0
+Trainer       0
+Cargo 6 20198
+Cargo 7 14975
+Cargo 9 4938
+End
+
+#END

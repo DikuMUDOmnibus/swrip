@@ -1,0 +1,12 @@
+#PLANET
+Name         Corellia~
+Filename     corellia~
+BaseValue    350000
+Flags        0
+PopSupport   97.000000
+spaceobject   Corellia~
+GovernedBy   The Rebel Alliance~
+Area         corellia.are~
+End
+
+#END

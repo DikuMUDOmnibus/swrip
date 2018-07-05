@@ -1,0 +1,783 @@
+#AREA   Virtual ship template rooms~
+
+
+
+#AUTHOR Darrik~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+2
+
+#ECONOMY 0 6300100
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#2700
+a plant~
+a plant~
+A plant sits in the corner.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2700
+Template rooms - virtual ship code~
+~
+0 4 1
+S
+#2701
+Pilot's Seat~
+The pilot's job is heavily assisted by computer on larger ships thus the
+controls at this station resemble a large computer panel rather than being
+centered around a flight stick like in starfighters. There are dozens of
+monitors around the station giving smaller versions of the large wall
+mounted ones as well as dozens of others monitoring different aspects of
+the ships flight. 
+~
+0 536870924 1
+S
+#2702
+Entrance Ramp~
+The gray floor grating of this standard access ramp quite functionally
+gives the passengers and crew access to the ship proper. Raised and
+lowered by a pair of hydraulics attached to the base of the ramp, this
+ramp is lit by a small pair of glowrods hanging in position over the
+center of the ramp. At the mouth of the rampway, an arched passage begins,
+leading further into the ship's interior.   
+~
+0 536870924 1
+S
+#2703
+Co-Pilot's Seat~
+The copilots station is designed to aide the pilot of this vessel in the
+non-flight related tasks that are to be performed during flight
+operations.  Tasks which the  pilot otherwise would not be able to devote
+his attention to are controlled from here, such as monitoring the systems
+shields, or operating a tractor-control system if it is installed. 
+~
+0 536870924 1
+S
+#2704
+Engine Room~
+The power core glows brightly through its blanket of pipes and modules.  A
+constant hum can be heard as the energy within is contained.  Various
+diagnostic panels line the walls of this room, displaying current and
+optimal status reports. The walls are padded and armored to prevent any
+type of radiation leaks into the rest of the ship. 
+~
+0 536870924 1
+S
+#2705
+Navigator's Station~
+A mini holographic display takes up most of this station.  The wall behind
+is a giant, transparent map of the galaxy.  Monitors ring the holographic
+display, showing preprogrammed destinations.  A large computer module
+blinks constantly as hyperjumps are precalculated, and recalculated to
+avoid random space debris drifting through the path vector of the ship. 
+~
+0 536870924 1
+S
+#2706
+Gunner's Station~
+The gunnery station consists of an array of single use computer terminals,
+whether  assisting the operator in targeting, displaying a  weapons
+load-out, or directing the  ships turbolasers, this station controls all
+aspects of the vessels combat capabilities. 
+~
+0 536870924 1
+S
+#2707
+Hangar Bay~
+A standard modular hangar, common in most civilian frigates and trade
+vessels, as  well as converted military craft, provides docking access for
+smaller size vessels  and starfighters.  Bright lights and painted
+walkways line the durasteel floor of the  hangar, as well as massive
+repsulor generators to operate the protective fields which separate those
+inside the hangar from the de-pressurized depths of space. 
+~
+0 536870940 1
+S
+#2708
+Cockpit~
+A triumph in engineering, the cockpit has crammed into this tight space all
+the  essential controls of the ship within an arms reach of the pilot. 
+Without sacrificing  visibility through the transparisteel viewport, most
+of the controls lie directly in front  of the pilot beneath the viewport
+and to the sides, as well as on the the ceiling of  the cockpit. 
+~
+0 536870924 1
+S
+#2709
+A Hallway~
+The clanking sound of steel grates echo down this corridor. Narrow walls
+and low  overhead are the result of stacked pipes, cables, and structural
+supports, which  flow through the vessel to provide utility to other parts
+of the ship.  Small glowlights  are embedded in the floor to provide
+direction in the dark corridor, leading to and  from the other rooms in
+the vessel. 
+~
+0 536870924 1
+S
+#2710
+Passenger Lounge~
+The passenger lounge was designed to be quite comfortable for humanoid
+passengers. A dark rich carpet covers the entire floor. The chairs flank
+small tables that are spread along the walls of the compartment.
+Adjustable glow panels are strategicly positioned by each table providing
+directional light for reading and working or a more difused light for
+social rides. 
+~
+0 536870924 1
+S
+#2711
+Storage Compartment~
+The walls of this compartment are conveniently covered with eyelets for
+securing whatever it is the owner of this ship wishes to store here. 
+Against the backwall, are shelves and trays, all secured and fabricated to
+help keep their contents secure as well during space travel.  The ceiling
+is covered with a hanging net, attesting to the practice of utilizing this
+small room's limited space to the fullest. 
+~
+0 536870924 1
+S
+#2712
+Bridge~
+The captain's station centers the bridge of this ship.  It is ringed with
+readouts from both the pilot's station, co-pilot's station, and the
+engineering stations, allowing the Captain to monitor everything that goes
+on with his ship.  A comm panel allows communications to the ship.  A very
+comfortable seat allows hours of comfort while traversing the galaxy. 
+~
+0 536870924 1
+S
+#2713
+Crew Quarters~
+Bunks line the walls, providing adequate berthing for a normal compliment
+of crew. Hanging from the sides of these bunks are zero grav straps, in
+the case that the artificial grav systems fail.  In the center of the
+compartment is a large table, ringed with chairs for private lounging away
+from the passengers. A large intensity varying light is mounted to the
+ceiling, providing all sorts of light levels to fit the situation.  On the
+wall is a red light and klaxon, ready to go off in the case of emergency. 
+~
+0 545259532 1
+S
+#2714
+Hallway~
+Running lights line the walkway to provide clear visibility down this
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm
+station is mounted to the wall, allowing the crew to recieve and send
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2715
+Prisoner Hold~
+An interim prisoner transport cell.  The walls are armored, and sealed,
+free of any paneling or access pads of any sort.  This cell is large
+enough to hold up to two prisoners comfortably.  Two slabs of durasteel
+can be slid out of the wall for sleeping upon.  A light is built into the
+cieling, it's casing armored and unaccessable. 
+~
+0 536870924 1
+S
+#2716
+Captain's Quarters~
+These quarters were made with the captain of the ship in mind.  A
+comfortable couch sits next to a bunk, slightly larger than the ones found
+in most crew quarters.  A viewport allows viewing to the exterior of the
+ship.  Opposite the viewport, on the wall is a mini readout station,
+allowing the captain to access the ships systems. A small work area in the
+corner is lighted by an intesity varrying light overhead. 
+~
+0 545259532 1
+S
+#2717
+Cargo Hold~
+A large room made to hold the many types of cargo containers found
+through out the galaxy.  Tether points line the walls for securing the
+items for space and atmospheric flight.  Light strips grid the cargo bay
+to provide adequate lighting for loading and unloading the cargo.  In one
+corner, a repulsor lift dolly is strapped for the ease of cargo
+transportation. 
+~
+0 537395212 1
+S
+#2718
+Stormtrooper Hold~
+The stormtrooper hold consists of several rows of heavily padded shoulder
+bracers,  in which stormtroopers strap themselves in for a dynamic
+deployment. Directly  facing each row of harnesses is a rack-mount shelf
+where armor, weapons, and  ammunition can be easily unclipped for quick
+arming and donning of necessary  equipment. 
+~
+0 536870924 1
+S
+#2719
+Passenger's Quarters~
+The walls are lined with closeable sleeping compartments, allowing privacy
+for passengers.  A few comfortable chairs are placed within the room for
+easy lounging. The room is lighted by a large light mounted in the center
+of the cieling.  The sleeping compartments can be totally blacked out for
+a restful sleep, so the need for light controls within the room is
+non-existent. 
+~
+0 536870924 1
+S
+#2720
+Crew Lounge~
+An informal lounge, looking more like a living room in someone's
+apartment.  It's lighting can be dimmed or brightened to compliment the
+mood of it's occupents.  A holoprojector is mounted to the ceiling for the
+entertainment of the crew.  In one corner, a holochess table is mounted,
+wrapped by a plush corner couch. Large comfortable chairs are
+strategically placed through out the lounge, along with gaming tables.  A
+panel on the wall provides an entertainment interface which accesses the
+holoflick library, and the gaming storage.  Sabaac and Pazaak are just a
+couple of the many games provided.  Datapads are left on many of the
+tables, each programmed with the latest literature from many of the well
+known planets throughout the galaxy. 
+~
+0 536870924 1
+S
+#2721
+Hallway~
+Running lights line the walkway to provide clear visibility down this
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm
+station is mounted to the wall, allowing the crew to recieve and send
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2722
+Stairwell~
+Designed to for maximum space efficiently, this spiral staircase wraps
+tightly around a durasteel center beam. Short steps  wind up along the
+center beam, forcing the traveler to literally climb his way up the
+staircase.  
+~
+0 536870924 1
+S
+#2723
+Turret Mount~
+An armored seat, ringed by targeting and gunnery monitors sits within a
+ring of gyroscopic runners.  A flightstick like grip provides the gunner
+with full control of the turret's functions.  The blast bubble that this
+seat is mounted within, provides 3/4's spherical view of the exterior of
+the ship.  Large blaster barrels protrude from the front of this turret. 
+The lighting in here is always low, to provide ease in viewing the
+targeting readouts. 
+~
+0 536870924 1
+S
+#2724
+Turret Mount~
+An armored seat, ringed by targeting and gunnery monitors sits within a
+ring of gyroscopic runners.  A flightstick like grip provides the gunner
+with full control of the turret's functions.  The blast bubble that this
+seat is mounted within, provides 3/4's spherical view of the exterior of
+the ship.  Large blaster barrels protrude from the front of this turret. 
+The lighting in here is always low, to provide ease in viewing the
+targeting readouts. 
+~
+0 536870924 1
+S
+#2725
+Speeder Bay~
+The speeder bay is columned by mounts, providing secure berthing for each
+speeder that is to be transported.  The mounts hold the speeder suspended,
+allowing access to the repulsorlifts for maintenence and repairs.  A work
+bench in the corner is full with the tools neccesssary to carry out these
+actions.  A large bay door in the outer wall can be opened for the ease of
+loading and unloading the speeders. 
+~
+0 536870924 1
+S
+#2726
+Cargo Hold~
+A large room made to hold the many types of cargo containers found
+through out the galaxy.  Tether points line the walls for securing the
+items for space and atmospheric flight.  Light strips grid the cargo bay
+to provide adequate lighting for loading and unloading the cargo.  In one
+corner, a repulsor lift dolly is strapped for the ease of cargo
+transportation. 
+~
+0 537395212 1
+S
+#2727
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2728
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2729
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2730
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2731
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2732
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2733
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2734
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2735
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2736
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2737
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2738
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2739
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2740
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2741
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2742
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2743
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2744
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2745
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2746
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2747
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2748
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2749
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2750
+A Hallway~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2751
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2752
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2753
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2754
+An Intersection~
+Running lights line the walkway to provide clear visibility down this
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the
+eyes, light to navigate the passageway by.  These can be turned off, if
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2755
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2756
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2757
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2758
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2759
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2760
+An Intersection~
+Running lights line the walkway to provide clear visibility down this 
+hallway. The ceiling is lighted indirectly to provide a dim, easy on the 
+eyes, light to navigate the passageway by.  These can be turned off, if 
+the situation fits.  The walls are paneled, allowing access to the various
+conduits and pipings that may need maintenance.  Every so often, a comm 
+station is mounted to the wall, allowing the crew to recieve and send 
+inter-ship communications. 
+~
+0 536870924 1
+S
+#2761
+Docking Airlock~
+The gray floor grating of this standard docking airlock quite functionally
+gives the passengers and crew access to the ship proper. Dual seals 
+opened by a pair of hydraulics keep the atmosphere inside, even with a 
+poor seal between ships, this airlock  is lit by a small pair of glowrods 
+imbedded in the hull.  At the mouth of the airlock, an arched passage
+begins, leading further into the ship's interior. 
+~
+0 536870924 1
+S
+#2762
+Officers Quarters~
+These quarters were made with the officers of the ship in mind.  A
+comfortable couch sits next to a double bunk, slightly larger than the ones
+found in most crew quarters.  A viewport allows viewing to the exterior of
+the ship.  Opposite the viewport, on the wall is a mini display screen, 
+allowing the officers to view data on the ships systems. A small work area
+in the corner is lighted by an intensity varying light overhead. 
+~
+0 545259532 1
+S
+#3000
+Floating in a void~
+~
+0 1073741828 1
+S
+#3197
+Last room - Virtual ship code~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+O 1 2700 1 2700
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

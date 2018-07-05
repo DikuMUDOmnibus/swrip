@@ -1,0 +1,12 @@
+#PLANET
+Name         Hoth~
+Filename     hoth~
+BaseValue    75000
+Flags        0
+PopSupport   97.000000
+spaceobject   Hoth~
+GovernedBy   The Rebel Alliance~
+Area         hoth.are~
+End
+
+#END

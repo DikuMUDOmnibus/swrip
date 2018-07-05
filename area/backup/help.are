@@ -1,0 +1,564 @@
+#HELPS
+0 !~
+&CSyntax &W: &Y!
+  
+&c! repeats the last command you typed.
+~
+1 A~
+&C                       MOVING THROUGHOUT GAME:
+&W                     ---------------------------
+&cThe game divided into many rooms which are connected by various 
+directionals to make up areas.  When you are in a room, you can 
+find the exits in the room by typing &YEXITS&c.  Autoexit is a helpful 
+command to initiate (type &YCONFIG +AUTOEXIT&c), because it will 
+automatically show you what exits there are in the room.  Be warned 
+however, you will only see the obvious exits.  You must pay attention 
+to the room descriptions to see if there might be any doors or hidden 
+passages in the room. 
+ 
+&CDirectional commands: &c(in parentheses you find the shorthand)
+&YNORTH (n)    SOUTH (s)    EAST (e)    WEST (w)     UP (u)     DOWN (d)
+NORTHEAST (Ne)  NORTHWEST (Nw)  SOUTHEAST (Se)  SOUTHWEST (Sw)
+ 
+&RNote&w:&c  You will notice that in the prompt <20hp 10bp 20mv>, the 'mv'
+       refers to your movement points.  If your movement points were 
+       to run out, you will be unable to move between rooms due to 
+       exhaustion.  If you type &YSLEEP&c or &YREST&c your movement points
+       will slowly be replenished.  You must type &YSTAND&c or &YWAKE&c
+       before walking again. 
+~
+1 ACCELERATE VELOCITY SPEED~
+&CSyntax &W: &YSpeed (speed) <accel> 
+&CSyntax &W: &YAccelerate (speed) <accel> 
+&CSyntax &W: &YVelocity (speed) <accel> 
+&c 
+This command sets your ships speed when not in hyperspace.
+The accel argument is optional, and sets your rate of 
+acceleration. It will automatically accelerate at maximum
+if not used. 
+~
+-1 ADVENTURE~
+.
+   In our efforts to give credit to everyone who deserves it, we almost
+   forgot to give credit to one of the "grandfathers" of computer adventure
+   games... David Platt, the author of the original "Adventure" (c)1979.
+
+   Also credit to Ken Wellsch for porting the original Fortran-77 version
+   to UNIX-C (over a period of about 3 years) (c)1984.
+~
+0 AMOTD~
+~
+1 B~
+&C                      COMMANDS FOR VARIOUS ACTIONS 
+&W                    -------------------------------- 
+ &YLOOK (l)&c - can used by itself to look at the room you stand in 
+            - you can look at objects: &YLOOK <object>&c 
+            - you can look at mobs and players: &YLOOK <mob or player name>
+ &Y
+ SLEEP (sl) &c- sleeping will replenish your hitpoints, force, and movement
+ &Y
+ REST (r) &c- will replenish your hp, force, and mv, but slower than sleep
+          - you can still communicate when resting but not while sleeping
+ &Y
+ WAKE (wa)/ STAND (st) &c- will return you to the standing position 
+ &Y
+ SIT &c- your character will sit down 
+ &Y
+ OPEN/CLOSE <direction or object> &c- will open/close a door or container
+ &Y
+ LOCK/UNLOCK <direction or object> &c- will lock/unlock a door or container
+ &Y
+ PICK <direction or container> &c- will pick lock on door or container 
+ &Y
+ INVENTORY (in) &c- will show you all the objects you are carrying 
+ &Y
+ EQUIPMENT (eq) &c- will show you all the equipment you are wearing 
+~
+1 C~
+&C                       COMMANDS TO USE WITH OBJECTS
+&W                     ----------------------------------&C
+  GET - &YGET <object> <container>&c will get an item from a container 
+      - &YGET <object>&c will get an object from the ground 
+&C
+  PUT - &YPUT <object> <container>&c will put an item in a container 
+&Y
+  DROP <object> -&c will drop the object from your inventory to the ground
+&Y
+  GIVE <object> <player> -&c you will give the object to that player 
+&Y
+  SACRIFICE (sac) <object> -&c the object disappears 
+&Y
+  USE <object> <target> -&c invokes a device's function on a target
+&Y
+  EAT/DRINK <object> -&c you can eat or drink different foods and drinks 
+&C
+  EMPTY - &YFILL <object> -&c fills a drink container from a water source
+        - &YEMPTY <object> -&c empties a container onto the ground 
+        - &YEMPTY <object> <container> -&c empties a container into another
+~
+-1 CREDITS~
+SWReality 1.0 is an extention of Smaug which was expanded from Merc
+which was derived from the original Dikumud code.
+ 
+SWReality 1.0 copyright (c) 1997, 1998 was created by Sean Cooper
+(specs@golden.net) based on a concept and ideas from the original
+SWReality immortals: Himself (Durga), Mark Matt (Merth), Jp Coldarone
+(Exar), Greg Baily (Thrawn), Ackbar, Satin, Streen and Bib as well as much
+input from our other builders and players.
+ 
+DikuMud (c) program and concept by Sebastian Hammer
+(quinn@freja.diku.dk), Michael Seifert (seifert@freja.diku.dk),
+Hans Henrik (bombman@freja.diku.dk), Tom Madsen (noop@freja.diku.dk),
+and Katja Nyboe(katz@freja.diku.dk).
+ 
+Merc 2.1 (c) was created by Furey (mec@shell.portal.com), Hatchet
+(hatchet@uclink.berkeley.edu), and Kahn
+(michael@uclink.berkeley.edu).
+ 
+Smaug (c) was created by Derek Snider with the help of  Altrag,
+Blodkai, Narn, Haus, Scryn, Rennard, Swordbearer, Gorog, Grishnakh
+and Tricops.
+ 
+Star Wars and Star Wars names are the copyright (c) of Lucasfilm Ltd
+and the authors of the many Star Wars related books.
+ 
+Quest Code (c) 1996 Ryan Addams
+Ported to SMAUG by Vir of Eternal Struggle
+
+Arena Code by LrdElder 10/24/98
+Bug fixes and modifications to SWRiP by Ulysses
+
+Wanted Help Files 1.0 by Xerves 8/24/99 
+Xerves is/was admin/owner of Rafermand- http://www.rafermand.net 
+
+SW: Rise in Power MUD Codebase v1.0 (c) 2001 was created by Mark Miller (
+Darrik Vequir ) with the advice and input of his staff. 
+
+see HELP DIKU, HELP SMAUG, HELP MERC, HELP SWREALITY, and HELP SWRIP for
+more detailed credits. 
+~
+102 CSET~
+Cset is used to set the system's 'control panel' settings.
+Syntax: cset <field> <level>
+Fields: save - saves the control panel settings
+        stun - sets normal (mob vs. player / player vs. mob) stun modifier
+        stun_pvp - as above, for player vs. player
+        dam_pvp - percentage adjustment for player vs. player fighting
+        dam_pvm - as above, for player vs. mob
+        dam_mvp - as above, for mob vs. player
+        dam_mvm - as above, for mob vs. mob
+        get_notake - level to pick up notake flagged items
+        read_all - level to read all mail
+        read_free - level to read mail for free
+        write_free - level to write mail for free (no items necessary)
+        take_all - level to take all mail
+        muse - level to see/use muse channel
+        think - level to see/use think channel
+        log - level to see log channel
+        build - level to see build channel
+        proto_modify - level to modify prototype objects
+        override_private - level to override private/solitary rooms
+        forcepc - level to force pc's
+        saveflag - flags/actions on which to save a pfile (drop, give, get,
+                   receive, auction, zap, death, auction, auto, password)
+        guild_overseer - name of the Overseer of Guilds
+        guild_advisor - name of the Advisor to Guilds
+~
+1 D~
+&C                 WEARING AND SELLING EQUIPMENT
+&W                -------------------------------&Y
+   WEAR <object> - &cyou will wear that piece of equipment 
+&Y
+   WIELD <weapon> - &cyou will wield that weapon 
+&Y
+   HOLD <object> - &cyou will hold that object in your hands 
+&Y
+   REMOVE (rem) <object> - &cthe object is remove and placed in inventory
+&Y
+   COMPARE (com) <object1> <object2> - &ccompares the value of two items 
+&Y
+   REPAIR (repa) <object> - &ca blacksmith will repair your damaged item
+&Y
+   APPRAISE <object> - &ca blacksmith will tell the cost to repair the item
+&Y
+   LIST - &cwhen in a store, the items for sale will be listed 
+&Y
+   BUY <object> - &cyou will purchase the item for the given price 
+&Y
+   SELL <object> - &cyou will sell the item to the store and receive money
+&Y
+   VALUE <object> - &cstorekeepers will say how much they will pay for item
+~
+1 DARRIK~
+They came from the woodwork to listen to the fears,
+Savoring the taste of a little child's tears.
+Bogeyman in the closet, monsters under the bed, Terrors of the night
+creeping into your head.
+There's no place to hide when you are alone,
+Under the covers shaking to the bone.
+Take a deep breath and try to relax,
+Try to forget the man with the axe.
+But they whisper to you from deep in the night,
+And you are too scared to turn on the light.
+So fear the night terrors my dear little ones,
+And pray for the rise of the new morning sun.
+
+Email: Darrik@swrip.net
+
+Darrik Vequir 
+~
+101 DIAGNOSE~
+Syntax:  diagnose of 20
+ 
+Diagnose of n - object frequency of top "n" objects.  The above example will
+return the 20 most numerous object vnums in the game at that time.
+~
+-1 DIKU~
+Realms of Despair was originally based on the Merc 2.1 code which was
+              based on the orignal DIKUMud code created by:
+
+                       The Original DIKUMud Team:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+                     Additional contributions from:
+
+ Michaal Curran  - the player title collection and additional locations.
+ Bill Wisner     - for being the first to successfully port the game,
+                   uncovering several old bugs, uh, inconsistencies,
+                   in the process.
+
+         And: Mads Haar and Stephan Dahl for additional locations.
+
+  The Original DIKUMud was Developed at the Department of Computer Science
+                     at the University of Copenhagen.
+~
+101 ECONOMY~
+Each area will initialize (on bootup of the mud) with a pool of gold based
+on the area's range and the wealth of each mob in that area.
+ 
+The shopkeepers and thieves will automatically deposit gold into the economy
+if they are carrying more than a certain amount (the higher the level of the
+shopkeeper, the greater they will carry before depositing).
+ 
+To allow mobprogs to be created to manipulate area economies, making them
+interactive and interdependent, there are two mpcommands:  mpdeposit, and
+mpwithdraw (see related helpfiles).  There is also an 'if economy' ifcheck.
+ 
+The aset command can also be used to adjust an area's economy by hand
+(example:  aset <area filename> low_economy <amount>, this will give
+the specified area a minimum economy at the level you set).
+ 
+Mobs will not repop with more gold than what they were originally created
+with, but if the area economy runs low they will begin to repop with less
+until the economy is replenished (as they all share the same gold pool).
+ 
+Use foldarea to make changes to an area's economy with aset permenent.
+ 
+See ASET, FOLDAREA
+~
+1 F~
+&C                        COMMANDS FOR COMBAT
+&W                       ---------------------&Y
+   KILL <mob> &cyou begin to attack the mob (you need only type once)
+&Y
+   FLEE &cyou attempt to flee from the fight 
+&Y
+   FEEL <force power>&c you use the power (see &PHELP <power>&c for more)
+&Y
+   GLANCE <mob or player> &ctells you how wounded the target is 
+&Y 
+   CONSIDER (con) <mob> &cgives you an idea on how tough the mobile is 
+&Y
+   LEVEL &cshows you how many experience points you need till next level
+&Y
+   WIMPY <number> &cif your hitpoints go under that number, you flee combat
+&Y
+   CONFIG +/-FLEE &cyou do/don't flee when attacked 
+&Y
+   RESCUE <player> &cyou replace a player in a fight 
+&Y
+   SHOVE <player> <direction> &ca player is shoved in a given direction 
+&Y
+   DRAG <player> <direction> &ca sitting player is moved that direction 
+~
+-1 GREETING~
+.              _________________      ____         __________
+ .       .    /                 |    /    \    .  |          \ .
+     .       /    ______   _____| . /      \      |    ___    |     .  
+             \    \    |   |       /   /\   \     |   |___>   |  .
+           .  \    \   |   |      /   /__\   \  . |         _/         
+ .     ________>    |  |   | .   /            \   |   |\    \_______   
+      |            /   |   |    /    ______    \  |   | \**REALITY**|
+      |___________/    |___|   /____/      \____\ |___|  \__________|  
+  .     ____    __  . _____   ____      .  __________   .  _________
+       \    \  /  \  /    /  /    \       |          \    /         |     
+        \    \/    \/    /  /      \      |    ___    |  /    ______|  .
+         \              /  /   /\   \ .   |   |___>   |  \    \
+   .      \            /  /   /__\   \    |         _/.   \    \      .
+           \    /\    /  /            \   |   |\    \______>    |   .
+            \  /  \  /  /    ______    \  |   | \              /      
+ .       .   \/    \/  /____/      \____\ |___|  \____________/  .    .
+==========================================================================
+                              -*R-I-S-E*-                              
+                                -*I-N*-                            
+                             -*P-O-W-E-R*-                     
+ 
+                     (:::::::]{+++++++++++++++++++++-
+ 
+Star Wars: Rise in Power
+based on SWReality 1.0 by Sean (Durga the Hutt) Cooper -
+specs@golden.net
+Original SMAUG 1.0 written by Thoric (Derek Snider) with help from
+Altrag, Blodkai, Narn, Haus, Scryn, Swordbearer, Rennard, Tricops and
+Gorog. Original MERC 2.1 code by Hatchet, Furey, and Kahn. Original DikuMUD
+code by: Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael Seifert
+Sebastian Hammer.
+ 
+Star Wars and Star Wars names are a copyright of Lucasfilm ltd.
+
+
+Please enter your name:
+~
+0 HELP~
+&cYou may look up help files under many subjects:
+
+          MOVEMENT                  GROUP
+
+           CONFIG                INFORMATION
+
+          OBJECTS               COMMUNICATION
+
+           COMBAT
+
+To use the help menu, just type "help <topic>".  
+If you are new to the game, type HELP NEWBIE to see a special help series.
+You can also type hlist to get a list of ALL help topics. 
+
+&RAlso see: &W!, save, quit, pagelength, and practice. 
+~
+100 HELPFILE FILE HELPFILES~
+To edit/make a help file there are some basic and yet confusing
+commands
+necessary.  So here we go...
+hedit <helpfile>
+hset level 1 <helpfile>
+hset keyword "<word list>" <helpfile>
+hset save <helpfile>
+~
+
+-1 MERC FUREY KHAN HATCHET~
+Originally based on the Merc 2.1 code which was created by Furey, 
+Hatchet, and Kahn.
+This original code base is available as Merc_21.tar.gz via FTP from:
+ftp.tcp.com, ftp.math.okstate.edu and game.org.
+E-mail to 'merc-request@kpc.com' to join the merc mailing list.
+
+Merc would like to thank ...
+  ... Diku Mud for their code base.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+                                Share and enjoy.
+~
+-1 MOTD~
+.
+A decision has been building in my mind recently.  
+I have been working on RiP since July of 1999, and have been 
+running it since October that same year.  I have worked eight 
+hours a day on the mud, and I have worked 8 hours a month on it.  
+Through it all, I only decided to set it down once, in 2001, 
+when I released the codebase and 'shutdown' the mud.  I left 
+it online and running, however, and eventually people convinced 
+me to reopen it.
+ 
+Now, in 2004, I have finally decided to lay this project down 
+and move on.  The active player base has become very small 
+over the last year, and the immortals have slowly been moving 
+on, although some good additions have come along as well.  
+Johnson has been a great help in coding some of the many ideas 
+we all have.  Corran has become one of the best administrators 
+I've had.
+ 
+It has been a good time, and I will miss RiP.  However, I have 
+a new project that I have just recently started, and I want to 
+focus on that.  Perhaps in a couple of years when I have 
+completed the project, I will open another mud and invite you 
+all to share the creation once again. 
+ 
+In the meantime, I will not be leaving the mudding scene, as 
+I still play on one mud and stop by others constantly, harrassing 
+the owners, trying to get them to talk code, one of my favorite 
+pastimes. 
+ 
+Any builders who would like a copy of their areas, toss me an 
+e-mail, and I will send it off.  I will use previous e-mails as 
+a base, or AIM, to verify your identities. The area files are 
+still fully compatible with stock SWR, except possibly the 
+additional if statements in programs.
+ 
+The currently codebase may or may not be released in the future. 
+I will need to clean it up once again, and either remove or 
+receive permission to include Johnson's and Kre's code in the 
+release.  I have not decided on whether or not I do want to 
+release the code to the general public. 
+ 
+The mud will be shutdown on Friday, July 9th, at 8PM. 
+ 
+Good luck to you all, 
+ 
+Darrik Vequir 
+~
+
+-1 M_ADVHERO_~
+Well done!
+~
+
+-1 M_BALZHUR_~
+Suddenly you are thrust into the stream of the force, and you find yourself
+without any means of movement, without means of defense, without means of
+survival.
+ 
+Before your horrified eyes, a stream of pure darkness suddenly rushes into
+your heart, and slams into your very bieng, ripping at your soul. 
+ 
+To the lack of your salvation, a stream of white simultaniously whiplashes
+at your mind, robbing you of all knowledge and memories... 
+ 
+Woe to those who are attacked by the fury of the Force, for their
+punishment is great... 
+~
+-1 M_GODLVL10_~
+You are all powerful!
+~
+
+-1 M_GODLVL1_~
+...Everything begins to fade to black.
+
+You feel yourself leaving your body... rising up into the air, you feel
+indeed much more free than you have ever felt before...
+
+You float high into the heavens... a vortex of ever-changing curved beams
+of colored light swirling around you faster and faster...
+
+Your soul is bursting with emotions you can barely conceive...
+You feel a burning inside... both cold and hot... a tingle of electricity
+grows into a powerful buzzing surge jolting through every inch of your body.
+
+A strange chorus of voices begins to sing indecipherable and long forgotten
+words... the singing grows louder and louder... a million voices as one.
+
+You feel yourself losing touch with reality... and all goes quiet.
+~
+-1 M_GODLVL2_~
+...You begin to feel light-headed.
+
+Your hands begin to tingle softly...
+The feeling quickly grows into a strange radiating pulse of energy! 
+
+The tingle rises up your arms and into your head, filing your mind with
+visions of worlds of wonder, far off places, great towers, vast mountains,
+oceans, seas, lush valleys, dark caverns and twisted passages...
+ 
+You sense a feeling of wonderous potential and power in your hands...
+Enough power to build and create these visions for yourself!
+
+You feel much more powerful, eager and inspired!
+~
+
+-1 M_GODLVL3_~
+...You feel slightly faint as your head begins to spin.
+
+Your hands begin to tingle once more...
+A vortex of energy starts to swirl throughout your hands, going faster
+and faster... becoming almost painful! 
+
+Beams of light break through your skin, one at a time, then more and
+more until the light is almost to bright to bear...
+
+As your squint your eyes, you perceive a vision of great beasts of wonder,
+dangerous and unnatural fiends, pixies, faeries, tribes and clans, peoples
+of all kinds, ancient forgotten artifacts, weapons of vast untapped powers,
+crystal balls, magick rings, staves, wands, rods, arcane tomes of untold
+secrets... your mind is bursting with inspiration...
+ 
+You sense a new, reborn feeling of unlimited potential and power...
+In your hands the power to build and create these visions for yourself!
+
+The bright light from your hands fades away... but strange faint glow
+remains always.
+~
+
+-1 M_GODLVL4_~
+You suddenly feel much more powerful!
+~
+
+-1 M_GODLVL5_~
+You suddenly feel much more powerful!
+~
+
+-1 M_GODLVL6_~
+You suddenly feel much more powerful!
+~
+
+-1 M_GODLVL7_~
+You suddenly feel much more powerful!
+~
+
+-1 M_GODLVL8_~
+You suddenly feel much more powerful!
+~
+
+-1 M_GODLVL9_~
+You suddenly feel much more powerful!
+~
+
+-1 NMOTD~
+&C*******        URL 13 is meant for audiences in their teen 
+* URL * years and older.  These sites may contain mild adult
+* 1 3 * language, situations unsuitable for children and
+******* some gore and violence.
+&c 
+Although we discourage any situations on the mud that may be inappropriate
+to anyone under the age of 18, we can not guarantee these situations will
+not occur.  Please e-mail Darrik@swrip.net with a log of any such
+situation so we can prevent it from happening again. 
+ 
+Thank you,
+Darrik Vequir
+Owner and Administrator 
+~
+
+-1 SMAUG THORIC~
+.           [S]imulated [M]edieval multi-[U]ser [A]dventure game
+
+SMAUG is an ongoing project headed up by Derek Snider (Thoric), who has
+taken on several assistants in expanding and improving the code.
+
+ Thoric Altrag Blodkai Narn Haus Scryn Swordbearer Rennard Tricops Gorog
+~
+
+-1 _DIEMSG_~
+&R&W&C ...Soft whispers of nothing fill your head as life   
+rushes from your frail body.
+ 
+&R&W&R..Torrents of pain rush through your fleshly being like a   
+tidal wave.  Suddenly, the pain and the whispers cease.&R&W
+ 
+&R&W....Finally, you are one with the force.
+~
+0 $~
+#$

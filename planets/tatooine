@@ -1,0 +1,13 @@
+#PLANET
+Name         Tatooine~
+Filename     tatooine~
+BaseValue    50000
+Flags        0
+PopSupport   88.000000
+spaceobject   Tatooine~
+GovernedBy   The Rebel Alliance~
+Area         tatooine~
+Area         hunters.guild~
+End
+
+#END

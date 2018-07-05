@@ -1,0 +1,2 @@
+[*****] BOOT: ---------------------[ Boot Log ]--------------------
+[*****] BOOT: Load_resets: space.are (1) 'O': object 2700 doesn't exist.

@@ -1,0 +1,11 @@
+#PLANET
+Name         Asteroid~
+Filename     asteroid~
+BaseValue    100000
+Flags        1
+PopSupport   89.000000
+GovernedBy   Removemesomeday~
+Area         asteroid.are~
+End
+
+#END

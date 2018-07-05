@@ -1,0 +1,12 @@
+#PLANET
+Name         Gamorr~
+Filename     gamorr~
+BaseValue    50000
+Flags        0
+PopSupport   92.000000
+spaceobject   Gamorr~
+GovernedBy   The Rebel Alliance~
+Area         gamorr~
+End
+
+#END
